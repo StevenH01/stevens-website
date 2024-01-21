@@ -1,13 +1,15 @@
 import React from 'react';
-import HomePage from './components/HomePage';
+import Header from './components/Header';
 import { ThemeProvider } from './ThemeContext';
 import './App.css';
 import MainPage from './components/MainPage';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <ThemeProvider>
-      <HomePage />
+      <Header />
+      <Contact />
       <MainPage />
     </ThemeProvider>
   );
