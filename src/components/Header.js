@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Box } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Contact from './Contact';
 
 const Header = () => {
 
@@ -27,6 +28,7 @@ const Header = () => {
           LinkedIn
         </Button>
       </Box>
+      <Contact />
     </Box>
   );
 };
