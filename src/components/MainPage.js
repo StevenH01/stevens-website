@@ -1,12 +1,15 @@
 import { Container, Grid } from '@mui/material';
 import React from 'react';
+import Header from './Header';
+import SideTabs from './SideTabs';
 
 const MainPage = () => {
   return (
     <Grid sx={{ minHeight: '100vh', minWidth: '100vw' }}>
+      <Header />
       <Container sx={{ background: '#333', minHeight: '100vh', minWidth: '100vw' }}>
-        <Grid grid item={3} sx={{ maxWidth: '200px'}}>
-          Tabs section
+        <Grid grid item={3} sx={{ maxWidth: '200px', color: 'inherit' }}>
+          <SideTabs />
         </Grid>
         <Grid grid item={6} sx={{
           background: '#333',
