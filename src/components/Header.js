@@ -11,12 +11,12 @@ const Header = () => {
   };
 
   return (
-    <Box sx={{ background: '#fff', padding: '10px', textAlign: 'left', color: 'inherit', position: 'relative' }}>
-      <Box sx={{ borderBottom: '1px solid black', width: '100%', position: 'absolute', top: '75%', zIndex: 1 }}></Box>
+    <Box sx={{ background: '#333', padding: '10px', textAlign: 'left', color: '#fff', position: 'relative' }}>
+      <Box sx={{ borderBottom: '3px solid white', width: 'calc(100% - 10px)', position: 'absolute', top: '75%', left: '5px', zIndex: 1 }}></Box>
 
       <Box sx={{ display: 'flex', alignItems: 'center', marginTop: '-1px' }}>
         <Box sx={{ marginRight: '10px' }} onClick={() => openInNewTab('https://github.com/StevenH01')}>
-          <GitHubIcon sx={{ color: '#333', cursor: 'pointer' }} />
+          <GitHubIcon sx={{ color: '#fff', cursor: 'pointer' }} />
         </Box>
         <Button color="inherit" onClick={() => openInNewTab('https://github.com/StevenH01')} style={{ cursor: 'pointer' }}>
           GitHub
