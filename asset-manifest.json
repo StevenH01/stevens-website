@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stevens-website/static/css/main.f855e6bc.css",
-    "main.js": "/stevens-website/static/js/main.ebc67473.js",
+    "main.css": "/stevens-website/static/css/main.dc97aeb6.css",
+    "main.js": "/stevens-website/static/js/main.3309089e.js",
     "static/js/787.ac7f45ab.chunk.js": "/stevens-website/static/js/787.ac7f45ab.chunk.js",
     "index.html": "/stevens-website/index.html",
-    "main.f855e6bc.css.map": "/stevens-website/static/css/main.f855e6bc.css.map",
-    "main.ebc67473.js.map": "/stevens-website/static/js/main.ebc67473.js.map",
+    "main.dc97aeb6.css.map": "/stevens-website/static/css/main.dc97aeb6.css.map",
+    "main.3309089e.js.map": "/stevens-website/static/js/main.3309089e.js.map",
     "787.ac7f45ab.chunk.js.map": "/stevens-website/static/js/787.ac7f45ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ebc67473.js"
+    "static/css/main.dc97aeb6.css",
+    "static/js/main.3309089e.js"
   ]
 }
