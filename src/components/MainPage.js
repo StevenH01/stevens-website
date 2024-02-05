@@ -1,15 +1,30 @@
-import { Container, Grid } from '@mui/material';
-import React from 'react';
+// MainPage.js
+import React, { useState } from 'react';
+import { Container, Grid, Tab, Tabs } from '@mui/material';
 import Header from './Header';
-import SideTabs from './SideTabs';
+import AboutPage from './AboutPage';
+import ResumePage from './ResumePage';
+import ProjectPage from './ProjectsPage';
+import HomePage from './HomePage'; // Import the HomePage component
 
 const MainPage = () => {
+  const [selectedTab, setSelectedTab] = useState(0);
+
+  const handleTabChange = (event, newValue) => {
+    setSelectedTab(newValue);
+  };
+
   return (
     <Grid sx={{ minHeight: '100vh', minWidth: '100vw' }}>
       <Header />
-      <Container sx={{ background: '#333', minHeight: '100vh', minWidth: '100vw' }}>
-        <Grid grid item={3} sx={{ maxWidth: '200px', color: 'inherit' }}>
-          <SideTabs />
+      <Container sx={{ background: '#333', minHeight: '100vh', minWidth: '100vw', color: '#fff' }}>
+        <Grid grid item={3} sx={{ maxWidth: '200px', color: 'inherit', textAlign: 'left' }}>
+          <Tabs orientation="vertical" value={selectedTab} onChange={handleTabChange} >
+            <Tab label="Home" sx={{ color: 'white' }} />
+            <Tab label="About" sx={{ color: 'white' }} />
+            <Tab label="Resume" sx={{ color: 'white' }} />
+            <Tab label="Projects" sx={{ color: 'white' }} />
+          </Tabs>
         </Grid>
         <Grid grid item={6} sx={{
           background: '#333',
@@ -25,7 +40,10 @@ const MainPage = () => {
             padding: '100px'
           }
         }}>
-          Build the body of the website here
+          {selectedTab === 0 && <HomePage />}
+          {selectedTab === 1 && <AboutPage />}
+          {selectedTab === 2 && <ResumePage />}
+          {selectedTab === 3 && <ProjectPage />}
         </Grid>
       </Container>
     </Grid>

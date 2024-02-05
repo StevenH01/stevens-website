@@ -1,13 +1,14 @@
+// ResumePage.js
 import React from 'react';
-import { Box } from '@mui/material'
+import { Typography } from '@mui/material';
 
 const HomePage = () => {
-
   return (
-    <Box>
-      This is the body of my website
-    </Box>
-  )
+    <div>
+      <Typography variant="h2">Home Page Content</Typography>
+      {/* Add your home page content here */}
+    </div>
+  );
 }
 
 export default HomePage;
