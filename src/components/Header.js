@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <Box sx={{ background: '#333', padding: '10px', textAlign: 'left', color: '#fff', position: 'relative' }}>
-      <Box sx={{ borderBottom: '3px solid white', width: 'calc(100% - 10px)', position: 'absolute', top: '75%', left: '5px', zIndex: 1 }}></Box>
+    <Box sx={{ background: '#333', padding: '10px', textAlign: 'left', color: '#fff', position: 'fixed', width: '100%', zIndex: 1000 }}>
+      <Box sx={{ borderBottom: '2px solid white', width: 'calc(100% - 20px)', position: 'absolute', top: '100%', left: '10px' }}></Box>
 
-      <Box sx={{ display: 'flex', alignItems: 'center', marginTop: '-1px' }}>
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
         <Box sx={{ marginRight: '10px' }} onClick={() => openInNewTab('https://github.com/StevenH01')}>
           <GitHubIcon sx={{ color: '#fff', cursor: 'pointer' }} />
         </Box>
