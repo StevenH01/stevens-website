@@ -9,3 +9,7 @@
 body {
   background-color: black;
 }
+
+.bg-primary-color {
+  @apply bg-gradient-to-r from-green-600 to-teal-400 inline-block;
+}
