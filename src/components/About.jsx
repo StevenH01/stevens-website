@@ -20,7 +20,7 @@ const About = () => {
         <img className='mx-auto rounded-3xl py-8 md:py-0' src={aboutimg} width={300} height={300} alt='' />
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
