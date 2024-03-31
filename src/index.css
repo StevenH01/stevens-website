@@ -13,3 +13,9 @@ body {
 .bg-primary-color {
   @apply bg-gradient-to-r from-green-600 to-teal-400 inline-block;
 }
+
+.text-primary-color {
+  background: linear-gradient(90deg, #43A047, #26A69A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

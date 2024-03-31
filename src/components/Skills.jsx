@@ -10,7 +10,7 @@ const Skills = () => {
     <div className='border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6
                     place-items-center md:flex md:justify-between md:items-center'
     >
-      <h2 className='text-gray-700 text-xl md:text-4xl font-bold m-4'>
+      <h2 className='text-primary-color text-xl md:text-4xl font-bold m-4'>
         My <br /> Tech <br /> Stack <br />
       </h2>
       <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px'>
