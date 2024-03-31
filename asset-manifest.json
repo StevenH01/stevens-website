@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/stevens-website/static/css/main.e969688c.css",
-    "main.js": "/stevens-website/static/js/main.192fa9be.js",
+    "main.css": "/stevens-website/static/css/main.210b475c.css",
+    "main.js": "/stevens-website/static/js/main.84b83c44.js",
     "static/media/selfie.png": "/stevens-website/static/media/selfie.66aa1b4304687906a23c.png",
     "static/media/aboutimg.png": "/stevens-website/static/media/aboutimg.0cc954f61e624df3893b.png",
+    "static/media/vercelWebsite.png": "/stevens-website/static/media/vercelWebsite.c4d5e5c58b399a7ed6b7.png",
+    "static/media/internship.png": "/stevens-website/static/media/internship.a0188e7528f9b9795204.png",
     "static/media/react.png": "/stevens-website/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/html.png": "/stevens-website/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/stevens-website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/stevens-website/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/stevens-website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/stevens-website/index.html",
-    "main.e969688c.css.map": "/stevens-website/static/css/main.e969688c.css.map",
-    "main.192fa9be.js.map": "/stevens-website/static/js/main.192fa9be.js.map"
+    "main.210b475c.css.map": "/stevens-website/static/css/main.210b475c.css.map",
+    "main.84b83c44.js.map": "/stevens-website/static/js/main.84b83c44.js.map"
   },
   "entrypoints": [
-    "static/css/main.e969688c.css",
-    "static/js/main.192fa9be.js"
+    "static/css/main.210b475c.css",
+    "static/js/main.84b83c44.js"
   ]
 }
